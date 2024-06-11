@@ -1,0 +1,96 @@
+.character-detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 300px;
+  }
+  
+  .search-input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .character-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .character-info {
+    max-width: 50%;
+  }
+  
+  .character-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .character-info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .character-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .comics-section {
+    margin-top: 50px;
+  }
+  
+  .comics-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .comics-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .comic-card {
+    text-align: center;
+  }
+  
+  .comic-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .comic-card p {
+    font-size: 1rem;
+  }
+  .back{
+    cursor: pointer;
+  }
+  .favorite-toggle{
+    curspor: pointer;
+  }
